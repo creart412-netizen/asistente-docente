@@ -1,0 +1,12 @@
+streamlit
+pdfplumber
+pytesseract
+pdf2image
+Pillow # Esta es la librería PIL/Image
+language-tool-python
+python-docx # Esta es la librería docx
+pandas
+openai
+reportlab
+docx2pdf
+
