@@ -27,7 +27,7 @@ from docx2pdf import convert as docx_to_pdf_convert
 
 # ================= CONFIGURACIÓN DE LA APLICACIÓN =================
 # CLAVE DE API DE OPENAI (HA SIDO ACTUALIZADA CON LA CLAVE PROPORCIONADA)
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Configuración de Tesseract OCR
 # Establece la ruta al ejecutable de Tesseract
@@ -1448,4 +1448,5 @@ elif st.session_state.selected_section == "🗄️ Mis Archivos Guardados (Local
             st.markdown("---")
     else:
         st.info("No tienes archivos guardados en tu carpeta local. ¡Genera o convierte algunos en las otras secciones y guárdalos!")
+
 
